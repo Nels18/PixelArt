@@ -6,7 +6,6 @@
 .filled {
   background-color: blue;
   animation: colored 4s steps(4, end) alternate infinite;
-
 }
 
 
