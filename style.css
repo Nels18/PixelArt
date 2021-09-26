@@ -2,3 +2,32 @@
   height: 90px;
   border: 1px solid #fff;
 }
+
+.filled {
+  background-color: blue;
+  animation: colored 3s steps(4, end) alternate infinite;
+
+}
+
+
+@keyframes colored {
+  0% {
+    transform: translateX(-30%);
+
+  }
+
+  20% {
+    transform: translateX(30%);
+    background-color: red;
+  }
+
+  80% {
+    transform: translateX(-30%);
+    background-color: green;
+  }
+
+  100% {
+    background-color: blueviolet;
+    transform: translateX(30%);
+  }
+}
